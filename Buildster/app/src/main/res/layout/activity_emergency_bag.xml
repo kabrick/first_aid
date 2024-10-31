@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset"
+    tools:context="com.kabricks.firstaidapp.PrepFragmentFiles.EmergencyBag" android:background="@color/mediumGreen">
+
+<LinearLayout  android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="EMERGENCY BAG"
+        android:id="@+id/textView84"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="A great way to prepare for emergencies is to make a grab bag containing essential items you may need if disaster strikes. Keep your bag somewhere accesible and check it regularly to make sure it&apos;s up to date."
+        android:id="@+id/textView85"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ITEMS FOR YOUR BAG"
+        android:id="@+id/textView86"
+        android:layout_marginBottom="8dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="#FF88"
+        android:layout_marginBottom="8dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Essential information and phone numbers"
+        android:id="@+id/checkBox14"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First aid kit"
+        android:id="@+id/checkBox15"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind-up torch or torch with spare batteries"
+        android:id="@+id/checkBox16"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind-up radio or radio with spare batteries"
+        android:id="@+id/checkBox17"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details of prescription medicine"
+        android:id="@+id/checkBox18"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spare spectacles or contact lenses"
+        android:id="@+id/checkBox19"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottled water"
+        android:id="@+id/checkBox20"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long-life snacks and sweets"
+        android:id="@+id/checkBox21"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Important documents, personal identification and insurance details"
+        android:id="@+id/checkBox22"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile phone and charger"
+        android:id="@+id/checkBox23"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spare key to your home and vehicle"
+        android:id="@+id/checkBox24"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toiletries"
+        android:id="@+id/checkBox25"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pencil and paper"
+        android:id="@+id/checkBox26"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penknife"
+        android:id="@+id/checkBox27"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whistle"
+        android:id="@+id/checkBox28"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All done"
+        android:id="@+id/button6"
+        android:layout_gravity="end"
+        android:onClick="allDone"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttons"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="YOU COULD ALSO TAKE WITH YOU:"
+        android:id="@+id/textView87"
+        android:layout_marginBottom="8dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="#FF88"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baby food"
+        android:id="@+id/checkBox30"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medication, blankets and spare clothes"
+        android:id="@+id/checkBox31"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A child&apos;s special toy"
+        android:id="@+id/checkBox32"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pets, unless gathering them may cause you delay or danger."
+        android:id="@+id/checkBox33"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash"
+        android:id="@+id/checkBox34"
+        android:checked="false"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Any other items essential to your needs"
+        android:id="@+id/checkBox35"
+        android:checked="false"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All done"
+        android:id="@+id/button7"
+        android:layout_gravity="end"
+        android:onClick="allDone2"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttons"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="REMEMBER TO CHECK THE CONTENTS OF THE BAG REGULARY"
+        android:id="@+id/textView88"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+
+</LinearLayout>
+
+</ScrollView>

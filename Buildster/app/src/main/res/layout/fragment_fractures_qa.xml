@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset"
+    android:background="@color/mediumGreen">
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Q&amp;A"
+        android:id="@+id/textView57"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How can i tell if someone has a broken bone"
+        android:id="@+id/textView58"
+        android:layout_below="@+id/textView57"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The person may have bruising, pain and swelling, or be lying in an unnatural position. In severe cases, the limb may be misshapen or have an open wound"
+        android:id="@+id/textView59"
+        android:layout_below="@+id/textView58"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How do i support a broken bone?"
+        android:id="@+id/textView60"
+        android:layout_below="@+id/textView59"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Do not move it unnecessarily. If you can, place soft padding arounnd the limb to align it, but do not force it. continue to support it until help arrives"
+        android:id="@+id/textView61"
+        android:layout_below="@+id/textView60"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If a bone looks unnatural or dislocated, should i put it back in place?"
+        android:id="@+id/textView62"
+        android:layout_below="@+id/textView61"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="71dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="No. If there is a dislocation or the limb looks broken, the hospital will take care of it. Never attempt to put dislocations back in place, you may cause further damage."
+        android:id="@+id/textView63"
+        android:layout_below="@+id/textView62"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+</ScrollView>

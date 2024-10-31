@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kabricks.firstaidapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/project_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name=".SettingsFragmentFiles.PrivacyActivity"
+            android:label="@string/title_activity_privacy"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".SettingsFragmentFiles.ConcernActivity"
+            android:label="@string/title_activity_concern"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".SettingsFragmentFiles.RateApp"
+            android:label="@string/title_activity_rate_app"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".SettingsFragmentFiles.IceNumbers"
+            android:label="@string/title_activity_ice_numbers" >
+        </activity>
+        <activity
+            android:name=".EmergencyFragmentFiles.Abc"
+            android:label="@string/title_activity_abc"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".EmergencyFragmentFiles.Fractures"
+            android:label="@string/title_activity_fractures"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".EmergencyFragmentFiles.Poison"
+            android:label="@string/title_activity_poison"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".EmergencyFragmentFiles.UnconBre"
+            android:label="@string/title_activity_uncon_bre"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".EmergencyFragmentFiles.UnconNotBre"
+            android:label="@string/title_activity_uncon_not_bre"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".EmergencyFragmentFiles.Cuts"
+            android:label="@string/title_activity_cuts"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".PrepFragmentFiles.Fires"
+            android:label="@string/title_activity_fires"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".PrepFragmentFiles.ChemicalAccidents"
+            android:label="@string/title_activity_chemical_accidents"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".PrepFragmentFiles.EmergencyBag"
+            android:label="@string/title_activity_emergency_bag"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".PrepFragmentFiles.RoadTrafficIncidents"
+            android:label="@string/title_activity_road_traffic_incidents" >
+        </activity>
+        <activity
+            android:name=".PrepFragmentFiles.Terrorism"
+            android:label="@string/title_activity_terrorism"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".PrepFragmentFiles.TopTenTips"
+            android:label="@string/title_activity_top_ten_tips" >
+        </activity>
+        <activity
+            android:name=".PrepFragmentFiles.CrowdIncidents"
+            android:label="@string/title_activity_crowd_incidents" >
+        </activity>
+        <activity
+            android:name=".PrepFragmentFiles.MedicalInsurance"
+            android:label="@string/title_activity_medical_insurance"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".PrepFragmentFiles.FirstAidKit"
+            android:label="@string/title_activity_first_aid_kit"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".LearnFragmentFiles.LearnAbc"
+            android:label="@string/title_activity_learn_abc" >
+        </activity>
+        <activity
+            android:name=".LearnFragmentFiles.LearnBurns"
+            android:label="@string/title_activity_learn_burns" >
+        </activity>
+        <activity
+            android:name=".LearnFragmentFiles.LearnFractures"
+            android:label="@string/title_activity_learn_fractures"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".LearnFragmentFiles.LearnPoison"
+            android:label="@string/title_activity_learn_poison"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".LearnFragmentFiles.LearnNosebleed"
+            android:label="@string/title_activity_learn_nosebleed"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".LearnFragmentFiles.LearnCuts"
+            android:label="@string/title_activity_learn_cuts"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".TestFragmentFiles.TestAbc"
+            android:label="@string/title_activity_test_abc"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".TestFragmentFiles.TestBurns"
+            android:label="@string/title_activity_test_burns" >
+        </activity>
+        <activity
+            android:name=".TestFragmentFiles.TestNosebleed"
+            android:label="@string/title_activity_test_nosebleed" >
+        </activity>
+        <activity
+            android:name=".TestFragmentFiles.TestGeneral"
+            android:label="@string/title_activity_test_general"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".TestFragmentFiles.TestPoison"
+            android:label="@string/title_activity_test_poison"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".TestFragmentFiles.TestFractures"
+            android:label="@string/title_activity_test_fractures"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".TestFragmentFiles.TestCuts"
+            android:label="@string/title_activity_test_cuts"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kabricks.firstaidapp.HomePage" />
+        </activity>
+        <activity
+            android:name=".TestFragmentFiles.displayScore"
+            android:label="@string/title_activity_display_score" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset"
+    tools:context="com.kabricks.firstaidapp.LearnFragmentFiles.LearnFractures"
+    android:background="@color/mediumGreen">
+
+    <LinearLayout  android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/image_fractures"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="A fracture is a broken bone."
+            android:id="@+id/textView171"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="First aid."
+            android:id="@+id/textView172"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/ColorPrimary"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="If a person is unconscious, call for medical help and begin CPR."
+            android:id="@+id/textView173"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth, or a clean piece of clothing."
+            android:id="@+id/textView174"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="While waiting for help, treat any symptoms that the patient may be experiencing"
+            android:id="@+id/textView175"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Immobilize the injured area if you will be moving the victim. Do not move them if there is a back or neck injury. Make a splint by folding a piece of cardboard or magazine, then placing it gently on the limb. Carefully tie the splint to the injured area with pieces of cloth."
+            android:id="@+id/textView176"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Apply a cold compress or ice in a plastic bag to the injured area. Make sure to place a cloth between the skin and the ice so you don&apos;t damage the skin."
+            android:id="@+id/textView177"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to test"
+            android:id="@+id/button14"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttons"
+            android:onClick="goForTest"/>
+    </LinearLayout>
+
+</ScrollView>

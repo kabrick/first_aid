@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kabricks.firstaidapp.TestFragmentFiles.TestFractures">
+    <item android:id="@+id/callEmergency" android:title="Call Hospital"
+        android:orderInCategory="1" app:showAsAction="always"/>
+
+    <item android:id="@+id/sendAlerts" android:title="Send alerts to friends"
+        android:orderInCategory="2" app:showAsAction="never"/>
+
+    <item android:id="@+id/shareApp" android:title="Share App"
+        android:orderInCategory="3" app:showAsAction="never"/>
+
+    <item android:id="@+id/giveFeedback" android:title="Give feedback"
+        android:orderInCategory="4" app:showAsAction="never"/>
+
+    <item android:id="@+id/viewMap" app:showAsAction="never"
+        android:orderInCategory="5" android:title="View Map"/>
+</menu>

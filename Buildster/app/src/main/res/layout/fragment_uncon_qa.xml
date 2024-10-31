@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kabricks.firstaidapp.EmergencyFragmentFiles.UnconQaA"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset"
+    android:background="@color/mediumGreen">
+
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="30dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Q&amp;A"
+        android:id="@+id/textView48"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Do i do chest compression differently on a chid or baby?"
+        android:id="@+id/textView49"
+        android:layout_below="@+id/textView48"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The approach is the same, but chest compressions should be modified to the use of one hand and two fingers respectively"
+        android:id="@+id/textView50"
+        android:layout_below="@+id/textView49"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Why do i have to tilt their head back to check for breathing?"
+        android:id="@+id/textView51"
+        android:layout_below="@+id/textView50"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="When a person is unconsious, their tongue can fall backwards and block their airway. Tilting their head backwards opens the airway by pulling the tongue forward"
+        android:id="@+id/textView52"
+        android:layout_below="@+id/textView51"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How do i look and feel for breaths?"
+        android:id="@+id/textView53"
+        android:layout_below="@+id/textView52"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="56dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Once the head is tilted back, look to see if their chest is rising and falling. If they are breathing, you may also feel breaths on your cheek"
+        android:id="@+id/textView54"
+        android:layout_below="@+id/textView53"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How do i do mouth to mouth"
+        android:id="@+id/textView55"
+        android:layout_below="@+id/textView54"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="If you feel able to, after 30 pushes on their chest, you can give two steady breaths into their mouth or nose. Seal your mouth over either their mouth or nose, closing the other, and blow air into them with two steady breaths."
+        android:id="@+id/textView56"
+        android:layout_below="@+id/textView55"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+</ScrollView>

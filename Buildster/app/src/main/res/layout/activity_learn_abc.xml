@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset"
+    tools:context="com.kabricks.firstaidapp.LearnFragmentFiles.LearnAbc">
+
+    <LinearLayout  android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView9"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/image_abc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="WHAT IS IT?"
+            android:id="@+id/textView139"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/ColorPrimary"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ABC and its variations are initialism mnemonics for essential steps used by both medical professionals and lay persons (such as first aiders) when dealing with a patient. In its original form it stands for Airway, Breathing and Circulation."
+            android:id="@+id/textView141"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Airway, breathing, and circulation are vital for life, and each is required, in that order, for the next to be effective. Since its development, the mnemonic has been extended and modified to fit the different areas in which it is used, with different versions changing the meaning of letters (such as from the original &apos;Circulation&apos; to &apos;Compressions&apos;) or adding other letters (such as an optional &quot;D&quot; step for Disability or Defibrillation)"
+            android:id="@+id/textView143"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image_abc2"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="APPLICATION"
+            android:id="@+id/textView144"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/ColorPrimary"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="AIRWAY"
+            android:id="@+id/textView145"
+            android:textColor="@color/limeGreen"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="In the unconscious patient, the priority is airway management, to avoid a preventable cause of hypoxia. At a basic level, opening of the airway is achieved through manual movement of the head using various techniques, with the most widely taught and used being the &quot;head tilt — chin lift&quot;, although other methods such as the &quot;modified jaw thrust&quot; can be used, especially where spinal injury is suspected."
+            android:id="@+id/textView146"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="BREATHING"
+            android:id="@+id/textView147"
+            android:textColor="@color/purple"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="In the unconscious patient, after the airway is opened the next area to assess is the patient&apos;s breathing, primarily to find if the patient is making normal respiratory efforts. Normal breathing rates are between 12 and 20 breaths per minute, and if a patient is breathing below the minimum rate, then in current ILCOR basic life support protocols, CPR should be considered, although professional rescuers may have their own protocols to follow, such as artificial respiration. Rescuers are often warned against mistaking agonal breathing, which is a series of noisy gasps occurring in around 40% of cardiac arrest victims, for normal breathing. If a patient is breathing, then the rescuer will continue with the treatment indicated for an unconscious but breathing patient, which may include interventions such as the recovery position and summoning an ambulance."
+            android:id="@+id/textView148"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="CIRCULATION"
+            android:id="@+id/textView149"
+            android:textColor="@color/red"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="This ensures proper blood circulation in a patient by checking for pulses and to make sure the heart is pumping. In case of failure, CPR is performed."
+            android:id="@+id/textView150"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to test"
+            android:onClick="goForTest"
+            android:background="@drawable/buttons"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+</ScrollView>

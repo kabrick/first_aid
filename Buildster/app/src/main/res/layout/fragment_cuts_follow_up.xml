@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kabricks.firstaidapp.EmergencyFragmentFiles.CutsFollowUp"
+    android:padding="30dp"
+    android:background="@color/mediumGreen">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If wound is dirty, rinse with water and lather with soap"
+        android:id="@+id/textView44"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If skin is broken, apply a bandage, gauze and adhesive tape."
+        android:id="@+id/textView45"
+        android:layout_below="@+id/textView44"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If you can’t stop bleeding, apply direct pressure and contact help."
+        android:id="@+id/textView46"
+        android:layout_below="@+id/textView45"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp" />
+
+</RelativeLayout>

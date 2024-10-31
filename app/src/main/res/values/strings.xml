@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Weetase</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="copyright_string">Copyright Kabricks 2016</string>
+    <string name="checkbox">I AGREE</string>
+    <string name="conditions_string">All the information displayed in this application is purely informative
+                                     and further professional medical attention should be sought after the prescribed
+                                     application of first aid.</string>
+    <string name="logo_string">Logo</string>
+    <string name="submit_string">SUBMIT</string>
+    <string name="title_activity_home_page">Weetase</string>
+
+    <string name="title_section1">Act Fast</string>
+    <string name="title_section2">Follow Up</string>
+    <string name="title_section3">QA</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="copyright_about">THIS APP IS PUBLISHED BY KABRICKS INC. UNDER ITS CSR BRANCH AND IS FREE FOR DISTRIBUTION IN ALL FORMS</string>
+    <string name="title_activity_privacy">Privacy</string>
+    <string name="title_activity_concern">Your Concerns</string>
+    <string name="title_activity_rate_app">Rate Our App</string>
+    <string name="rate"></string>
+    <string name="title_activity_ice_numbers">Ice Numbers</string>
+    <string name="rateText">Thanks For Liking Our App!!!</string>
+    <string name="title_activity_medical_information">Medical Information</string>
+    <string name="medical_info">This information will only be used to display information to rescuers in case of an emergency
+        and will not be used in any harmfull way</string>
+    <string name="ice_text">Adding an ICE(\"In Case of Emergency\") contact to your phone can help emergency personnel to
+        locate a friend or family member who can speak on your behalf if you become unconscious or incapacitated</string>
+    <string name="legal_advice1">The Kabricks Inc. has endeavoured to ensure that this app reflects the relevant guidance
+        from informed authoritative sources, current at the time of launch. While the material contained here provides only
+        initial care and treatment, it must not be regarded as a substitute for medical advice.</string>
+    <string name="legal_advice2">We are often asked if someone could be sued for performing first aid incorrectly.
+        Our role is not to advise on legal issues. However, where someone is acting in
+        good faith to help save someone\'s life or prevent further injury, there is little risk
+        of them being successfully sued for doing that.</string>
+    <string name="privacy">At the Kabricks we are committed to protecting your privacy. This statement is made in light of the requirements of the Data Protection
+    Act in order to alert you to our data precessing of your data. if you have any queries about this statement, please contact us.</string>
+    <string name="info_use">We will use your information to provide you with the information, products or services you have requested, for administration
+    purposes, to further our charitable aims and to comply with the law. We may need to share your information with our trading subsdiaries, service providers
+    , associated organisations and agents for these purposes
+
+    We will not share your information with other like minded organisation for the purpose of marketing unless you have previously indicated that you are happy for us to do so.</string>
+    <string name="privacy1">We take appropriate measures to ensure that the information disclosed to us is kept secure, accurate and up to date and kept
+    only as long as necessary for the purpose for which it s used.</string>
+    <string name="privacy2">By providing us with your personal data, you consent to the collection and use of such information you provide in accordance with the above
+    purposes and this privacy statement</string>
+    <string name="privacy3">You have the right to ask for a copy of the information we hold about you, for which we may charge a small fee and to have
+    any inaccurancies in your information corrected</string>
+    <string name="privacy4">If your personal details change, please hep us to keep your information up to date by notifying us. we reserve the right to amend the privacy
+    statement at any time. if we do, we will post notice of the change on our website and this mobile app and you will be deemed to have accepted such changes</string>
+    <string name="title_activity_abc">Burns and Scalds</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_chocking">Chocking</string>
+    <string name="title_activity_drowning">Drowning</string>
+    <string name="title_activity_electric_shocks">ElectricShocks</string>
+    <string name="title_activity_fractures">Fractures</string>
+    <string name="title_activity_poison">Poison</string>
+    <string name="title_activity_snake_bites">SnakeBites</string>
+    <string name="title_activity_nose_bleed">NoseBleed</string>
+    <string name="title_activity_insect_bites">InsectBites</string>
+    <string name="title_activity_uncon_bre">UnconBre</string>
+    <string name="title_activity_uncon_not_bre">UnconNotBre</string>
+    <string name="title_activity_cuts">Cuts</string>
+    <string name="cuts1">Use anything available to you - it doesn\'t need to be dressing pads from a first aid kit. You can use your hand, their hand, a t-shirt, a towel - anything rhat can be put over the wound to stop or slow down the flow of blood</string>
+    <string name="cuts2">For minor cuts and grazes, you can wash the wound to remove any dirt. Don\'t wash a wound that is bleeding heavily. If you put a heavily bleeding wound, you will wash away all the clotting agents and make it bleed more.</string>
+    <string name="cuts3">Do not remove it - it\'s helping plug the hole and stop the blood flow. instead, simply apply pressure around the object. Removing the object from the wound can make the bleeding much worse</string>
+    <string name="title_activity_fires">Fires</string>
+    <string name="title_activity_chemical_accidents">Chemical Accidents</string>
+    <string name="title_activity_emergency_bag">Emergency Bag</string>
+    <string name="title_activity_road_traffic_incidents">Road Traffic Incidents</string>
+    <string name="title_activity_terrorism">Terrorism</string>
+    <string name="title_activity_top_ten_tips">Top Ten Tips</string>
+    <string name="title_activity_crowd_incidents">Crowd Incidents</string>
+    <string name="title_activity_medical_insurance">Medical Insurance</string>
+    <string name="title_activity_first_aid_kit">First Aid Kit</string>
+    <string name="title_activity_learn_abc">Learn About Abc</string>
+    <string name="title_activity_learn_burns">Learn About Burns</string>
+    <string name="title_activity_learn_fractures">Learn About Fractures</string>
+    <string name="title_activity_learn_poison">Learn About Poison</string>
+    <string name="title_activity_learn_nosebleed">Learn About Nosebleeds</string>
+    <string name="title_activity_learn_cuts">Learn About Cuts</string>
+    <string name="title_activity_test_abc">Test For Abc</string>
+    <string name="title_activity_test_burns">Test For Burns</string>
+    <string name="title_activity_test_nosebleed">Test For Nosebleeds</string>
+    <string name="title_activity_test_general">General Test</string>
+    <string name="title_activity_test_poison">Test For Poison</string>
+    <string name="title_activity_test_fractures">Test For Fractures</string>
+    <string name="title_activity_test_cuts">Test For Cuts</string>
+    <string name="title_activity_display_score">Score Display</string>
+</resources>

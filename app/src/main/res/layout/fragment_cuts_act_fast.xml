@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kabricks.firstaidapp.EmergencyFragmentFiles.AbcActFast"
+    android:padding="30dp"
+    android:background="@color/mediumGreen">
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="197dp"
+        android:id="@+id/videoView2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="83dp" />
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="105dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If there is bleeding, press firmly over the site with a clean cloth until it stops, from 3 minutes onwards."
+        android:id="@+id/textView23"
+        android:layout_gravity="center"
+        android:layout_above="@+id/textView36"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="351dp"
+        android:layout_height="157dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Clean under lukewarm running water and gently pat. "
+        android:id="@+id/textView36"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

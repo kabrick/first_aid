@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kabricks.firstaidapp.EmergencyFragmentFiles.AbcActFast"
+    android:padding="30dp"
+    android:background="@color/mediumGreen">
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="197dp"
+        android:id="@+id/videoView5"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_above="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="152dp" />
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="102dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Move them on their side and tilt their head back"
+        android:id="@+id/textView23"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="196dp" />
+
+</RelativeLayout>

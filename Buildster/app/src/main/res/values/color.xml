@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#FF88</color>
+    <color name="ColorPrimaryDark">#FF88ff</color>
+    <color name="tabsScrollColor">#000000</color>
+    <color name="buttons">#FF6EB4</color>
+    <color name="buttons2">#EE6AA7</color>
+    <color name="purple">#8A2BE2</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#FF0000</color>
+    <color name="redDark">#FF0055</color>
+    <color name="green">#00FF55</color>
+    <color name="limeGreen">#32CD32</color>
+    <color name="mediumGreen">#C0C0C0</color>
+</resources>

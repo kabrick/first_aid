@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset"
+    tools:context="com.kabricks.firstaidapp.PrepFragmentFiles.ChemicalAccidents" android:background="@color/mediumGreen">
+
+    <LinearLayout  android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="FIRST AID KIT"
+            android:id="@+id/textView132"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="A first aid kit is important in emergency situations and should always be kept well stocked."
+            android:id="@+id/textView133"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="BEFORE CHECKLIST"
+            android:id="@+id/textView134"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/ColorPrimary"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breathing defibrillator( for CPR )"
+            android:id="@+id/checkBox47"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allergy medicine"
+            android:id="@+id/checkBox59"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tweezers"
+            android:id="@+id/checkBox48"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1% hydrocortisone cream (for bites or stings)"
+            android:id="@+id/checkBox49"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alcohol wipes"
+            android:id="@+id/checkBox50"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oral antihistamine (for allergic reations)"
+            android:id="@+id/checkBox51"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non-latex gloves"
+            android:id="@+id/checkBox52"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acetaminophen (for pain and fever)"
+            android:id="@+id/checkBox53"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thermometer"
+            android:id="@+id/checkBox54"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hand sanitizier"
+            android:id="@+id/checkBox55"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottled water"
+            android:id="@+id/checkBox56"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instant cold press(keep in a freezer at home or cold box in a car)"
+            android:id="@+id/checkBox57"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anything else you feel is important"
+            android:id="@+id/checkBox58"
+            android:checked="false"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Done"
+            android:id="@+id/button11"
+            android:layout_gravity="right"
+            android:background="@drawable/buttons"
+            android:layout_marginBottom="8dp"
+            android:onClick="allDone"/>
+    </LinearLayout>
+
+</ScrollView>
